@@ -1,7 +1,7 @@
 imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
-
+    - { resource: gedmo/services.yml }
 framework:
     #esi:             ~
     #translator:      { fallback: "%locale%" }
