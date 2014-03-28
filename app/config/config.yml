@@ -104,3 +104,11 @@ knp_paginator:
     template:
         pagination: KnpPaginatorBundle:Pagination:sliding.html.twig     # sliding pagination controls template
         sortable: KnpPaginatorBundle:Pagination:sortable_link.html.twig # sort link template
+
+ydle_hub:
+  master_id: 1
+
+parameters:
+  app_version: "0.4.3"
+  master_id: 1
+  master_address : "http://127.0.0.1"
