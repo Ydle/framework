@@ -24,9 +24,9 @@
         "doctrine/doctrine-fixtures-bundle": "dev-master",
         "knplabs/knp-menu": "1.1.2"
         ,"knplabs/knp-menu-bundle": "1.1.2"
-	,"knplabs/knp-paginator-bundle": "dev-master"
+	      ,"knplabs/knp-paginator-bundle": "dev-master"
         ,"jms/translation-bundle": "dev-master"
-        ,"ydle/hub-bundle": "0.5"
+        ,"ydle/hub-bundle": "0.5.1"
     },
     "scripts": {
         "post-install-cmd": [
