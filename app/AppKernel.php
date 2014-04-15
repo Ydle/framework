@@ -22,7 +22,12 @@ class AppKernel extends Kernel
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
             new JMS\TranslationBundle\JMSTranslationBundle(),
             new Ydle\HubBundle\YdleHubBundle(),
-            new FOS\UserBundle\FOSUserBundle()
+            new FOS\UserBundle\FOSUserBundle(),
+            new Ydle\RoomBundle\YdleRoomBundle(), 
+            new Ydle\APIBundle\YdleAPIBundle(),
+            new Ydle\LogsBundle\YdleLogsBundle(),
+            new Ydle\NodesBundle\YdleNodesBundle(),
+            new Ydle\UserBundle\YdleUserBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
