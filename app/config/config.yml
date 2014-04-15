@@ -107,6 +107,12 @@ knp_paginator:
 
 ydle_hub:
   master_id: 1
+  
+  
+fos_user:
+    db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
+    firewall_name: main
+    user_class: Ydle\UserBundle\Entity\User
 
 parameters:
   app_version: "0.4.3"
