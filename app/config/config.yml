@@ -61,6 +61,12 @@ doctrine:
         entity_managers:
             default:
                 mappings:
+                    YdleHubBundle: ~
+                    YdleRoomBundle: ~ 
+                    YdleAPIBundle: ~
+                    YdleLogsBundle: ~
+                    YdleUserBundle: ~
+                    YdleNodesBundle: ~
                     gedmo_translatable:
                         type: annotation
                         prefix: Gedmo\Translatable\Entity
