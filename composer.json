@@ -27,7 +27,7 @@
         ,"knplabs/knp-menu-bundle": "1.1.2"
         ,"knplabs/knp-paginator-bundle": "dev-master"
         ,"jms/translation-bundle": "dev-master"
-        ,"ydle/hub-bundle": "0.5.10"
+        ,"ydle/hub-bundle": "0.5.11"
     },
     "scripts": {
         "post-install-cmd": [
