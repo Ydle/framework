@@ -27,7 +27,13 @@ class AppKernel extends Kernel
             new Ydle\APIBundle\YdleAPIBundle(),
             new Ydle\LogsBundle\YdleLogsBundle(),
             new Ydle\NodesBundle\YdleNodesBundle(),
-            new Ydle\UserBundle\YdleUserBundle()
+            new Ydle\UserBundle\YdleUserBundle(),
+            new FOS\RestBundle\FOSRestBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
+            new Sonata\DatagridBundle\SonataDatagridBundle(),
+            new Sonata\CoreBundle\SonataCoreBundle(),
+            new Ydle\SettingsBundle\YdleSettingsBundle(),
+            new Ydle\CoreBundle\YdleCoreBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
