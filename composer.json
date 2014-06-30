@@ -57,7 +57,7 @@
         "symfony-web-dir": "web",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml",
-            "env-map": 
+            "env-map": {
                 "database_driver": "YDLE_DB_DRIVER",
                 "database_host": "YDLE_DB_HOST",
                 "database_name": "YDLE_DB_NAME",
