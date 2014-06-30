@@ -1,4 +1,14 @@
-ydle_room:
+ydle_core:
+    resource: "@YdleCoreBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+ydle_settings:
+    type:     rest
+    resource: "@YdleSettingsBundle/Resources/config/routing.xml"
+    prefix:   /
+    
+    ydle_room:
     resource: "@YdleRoomBundle/Resources/config/routing.yml"
     prefix:   /
 
