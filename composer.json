@@ -27,7 +27,7 @@
         ,"knplabs/knp-menu-bundle": "1.1.2"
         ,"knplabs/knp-paginator-bundle": "dev-master"
         ,"jms/translation-bundle": "dev-master"
-        ,"ydle/hub-bundle": "0.5.30"
+        ,"ydle/hub-bundle": "0.5.31"
         ,"friendsofsymfony/rest-bundle": "1.3.*"
         ,"jms/serializer-bundle": "dev-master"
         ,"sonata-project/core-bundle": "~2.2@dev"
