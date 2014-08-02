@@ -8,7 +8,7 @@ ydle_settings:
     resource: "@YdleSettingsBundle/Resources/config/routing.xml"
     prefix:   /
     
-    ydle_room:
+ydle_room:
     resource: "@YdleRoomBundle/Resources/config/routing.yml"
     prefix:   /
 
