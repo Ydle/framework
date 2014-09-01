@@ -8,30 +8,32 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "~2.4",
-        "doctrine/orm": "~2.2,>=2.2.3",
-        "doctrine/doctrine-bundle": "~1.2",
+        "symfony/symfony": "~2.5",
+        "doctrine/orm": "~2.4",
+        "doctrine/doctrine-bundle": "1.3.*@dev",
         "twig/extensions": "~1.0",
         "symfony/assetic-bundle": "~2.3",
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
-        "sensio/distribution-bundle": "~2.3",
+        "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
         "sensio/generator-bundle": "~2.3",
         "incenteev/composer-parameter-handler": "~2.0",
         "stof/doctrine-extensions-bundle": "~1.1@dev",
-        "gedmo/doctrine-extensions": "dev-master",
-        "doctrine/doctrine-fixtures-bundle": "dev-master",
         "friendsofsymfony/user-bundle": "~2.0@dev",
-        "knplabs/knp-menu": "1.1.2"
-        ,"knplabs/knp-menu-bundle": "1.1.2"
-        ,"knplabs/knp-paginator-bundle": "dev-master"
-        ,"jms/translation-bundle": "dev-master"
-        ,"ydle/hub-bundle": "0.5.38"
-        ,"friendsofsymfony/rest-bundle": "1.3.*"
-        ,"jms/serializer-bundle": "dev-master"
-        ,"sonata-project/core-bundle": "~2.2@dev"
-        ,"sonata-project/datagrid-bundle": "dev-master"
+        "knplabs/knp-menu-bundle": "~2.0",
+        "knplabs/knp-paginator-bundle": "dev-master",
+        "jms/translation-bundle": "dev-master",
+        "ydle/hub-bundle": "0.5.38",
+        "friendsofsymfony/rest-bundle": "1.3.*",
+        "jms/serializer-bundle": "dev-master",
+        "sonata-project/core-bundle": "~2.2@dev",
+        "sonata-project/datagrid-bundle": "dev-master",
+        "oyejorge/less.php": "dev-master",
+        "beelab/bowerphp": "0.1.*@alpha"
+    },
+    "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "2.2.*@dev"
     },
     "scripts": {
         "post-install-cmd": [
@@ -71,9 +73,6 @@
                 "locale": "YDLE_LOCALE",
                 "secret": "YDLE_SECRET"
             }
-        },
-        "branch-alias": {
-            "dev-master": "2.4-dev"
         }
     }
 }
