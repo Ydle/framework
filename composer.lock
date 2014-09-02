@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e582da86424798ff92d3dbb93352ac38",
+    "hash": "edbe36014eb4c56e51d6fa59bd7ea8f4",
     "packages": [
         {
             "name": "beelab/bowerphp",
@@ -2219,22 +2219,22 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "target-dir": "Sensio/Bundle/FrameworkExtraBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "dbc1e5aa830f3bf8063b29102add3c1e476d616e"
+                "reference": "9b22aaee517e80aad3238ea0328458b6f964066f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/dbc1e5aa830f3bf8063b29102add3c1e476d616e",
-                "reference": "dbc1e5aa830f3bf8063b29102add3c1e476d616e",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/9b22aaee517e80aad3238ea0328458b6f964066f",
+                "reference": "9b22aaee517e80aad3238ea0328458b6f964066f",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.2",
-                "symfony/framework-bundle": "~2.5"
+                "symfony/framework-bundle": "~2.3"
             },
             "require-dev": {
                 "symfony/expression-language": "~2.4",
@@ -2262,9 +2262,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "This bundle provides a way to configure your controllers with annotations",
@@ -2272,7 +2270,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2014-05-22 23:27:44"
+            "time": "2014-09-02 07:11:30"
         },
         {
             "name": "sensio/generator-bundle",
@@ -3226,17 +3224,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.38",
+            "version": "0.5.41",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "2862f3f36a42182b5e27afe44d93077892d5caea"
+                "reference": "2e1c581beab7a5a7dd46cd3b7b9b0f6c987619b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/2862f3f36a42182b5e27afe44d93077892d5caea",
-                "reference": "2862f3f36a42182b5e27afe44d93077892d5caea",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/2e1c581beab7a5a7dd46cd3b7b9b0f6c987619b1",
+                "reference": "2e1c581beab7a5a7dd46cd3b7b9b0f6c987619b1",
                 "shasum": ""
             },
             "require": {
@@ -3244,7 +3242,7 @@
                 "ydle/api-bundle": "0.5",
                 "ydle/core-bundle": "0.5.2",
                 "ydle/logs-bundle": "0.5.1",
-                "ydle/nodes-bundle": "0.5.5",
+                "ydle/nodes-bundle": "0.5.6",
                 "ydle/room-bundle": "0.5.7",
                 "ydle/settings-bundle": "0.5.7",
                 "ydle/user-bundle": "0.5.1"
@@ -3274,7 +3272,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2014-08-14 17:04:17"
+            "time": "2014-09-02 07:40:13"
         },
         {
             "name": "ydle/logs-bundle",
@@ -3323,17 +3321,17 @@
         },
         {
             "name": "ydle/nodes-bundle",
-            "version": "0.5.5",
+            "version": "0.5.6",
             "target-dir": "Ydle/NodesBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/NodesBundle.git",
-                "reference": "a2fc483ecbb26fa4aeb443d479fec32b79b9ddea"
+                "reference": "5783f2a31e93e073a4f16cd3f946b92160036e10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/NodesBundle/zipball/a2fc483ecbb26fa4aeb443d479fec32b79b9ddea",
-                "reference": "a2fc483ecbb26fa4aeb443d479fec32b79b9ddea",
+                "url": "https://api.github.com/repos/Ydle/NodesBundle/zipball/5783f2a31e93e073a4f16cd3f946b92160036e10",
+                "reference": "5783f2a31e93e073a4f16cd3f946b92160036e10",
                 "shasum": ""
             },
             "require": {
@@ -3364,7 +3362,7 @@
                 "nodes",
                 "ydle"
             ],
-            "time": "2014-08-14 16:55:19"
+            "time": "2014-09-02 06:55:36"
         },
         {
             "name": "ydle/room-bundle",
