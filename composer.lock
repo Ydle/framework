@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a6c45bdcf6eb4086cefd5518ed0c04a0",
+    "hash": "3d9f3e1c91e038e755961850c465e11f",
     "packages": [
         {
             "name": "beelab/bowerphp",
@@ -479,12 +479,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "f4672bf856259f5665e8144cddf3eb0924f23d63"
+                "reference": "ccf213068a9cccc3dd7c41807782078368d09885"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/f4672bf856259f5665e8144cddf3eb0924f23d63",
-                "reference": "f4672bf856259f5665e8144cddf3eb0924f23d63",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/ccf213068a9cccc3dd7c41807782078368d09885",
+                "reference": "ccf213068a9cccc3dd7c41807782078368d09885",
                 "shasum": ""
             },
             "require": {
@@ -550,7 +550,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2014-08-26 07:35:11"
+            "time": "2014-09-05 22:32:12"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -3224,17 +3224,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.42",
+            "version": "0.5.43",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "185c4e21295ec423dbd9fa2955aa177f8f4addbd"
+                "reference": "07a8d59ed4071fc525ff9ceb83f0e49ac3e93ea7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/185c4e21295ec423dbd9fa2955aa177f8f4addbd",
-                "reference": "185c4e21295ec423dbd9fa2955aa177f8f4addbd",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/07a8d59ed4071fc525ff9ceb83f0e49ac3e93ea7",
+                "reference": "07a8d59ed4071fc525ff9ceb83f0e49ac3e93ea7",
                 "shasum": ""
             },
             "require": {
@@ -3272,7 +3272,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2014-09-04 10:12:47"
+            "time": "2014-09-06 15:32:51"
         },
         {
             "name": "ydle/logs-bundle",
