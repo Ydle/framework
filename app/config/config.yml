@@ -38,9 +38,6 @@ assetic:
     debug:          "%kernel.debug%"
     use_controller: false
     filters:
-        lessphp:
-          file: %kernel.root_dir%/../vendor/oyejorge/less.php/lessc.inc.php
-          apply_to: "\.less$"
         cssrewrite: ~
 
 
