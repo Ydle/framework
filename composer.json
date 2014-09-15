@@ -24,13 +24,11 @@
         "knplabs/knp-menu-bundle": "~2.0",
         "knplabs/knp-paginator-bundle": "dev-master",
         "jms/translation-bundle": "dev-master",
-        "ydle/hub-bundle": "0.5.43",
+        "ydle/hub-bundle": "0.5.45",
         "friendsofsymfony/rest-bundle": "1.3.*",
         "jms/serializer-bundle": "dev-master",
         "sonata-project/core-bundle": "~2.2@dev",
-        "sonata-project/datagrid-bundle": "dev-master",
-        "oyejorge/less.php": "dev-master",
-        "beelab/bowerphp": "0.1.*@alpha"
+        "sonata-project/datagrid-bundle": "dev-master"
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "2.2.*@dev"
@@ -41,16 +39,14 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "bin/bowerphp install"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "bin/bowerphp update"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
         ]
     },
     "config": {
