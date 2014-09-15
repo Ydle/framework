@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "688a86bad7558e2657c1828bdefa641c",
+    "hash": "e3da34415c84bb5a3fdb3ae2ead06fc7",
     "packages": [
         {
             "name": "beelab/bowerphp",
@@ -1654,7 +1654,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -1710,7 +1710,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3222,17 +3222,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.44",
+            "version": "0.5.45",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "e5cc81d1416f796d2153dbb4ba6f0526a55ba0f1"
+                "reference": "37755bc05bbca0ccc8a1e014d576801048a11389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/e5cc81d1416f796d2153dbb4ba6f0526a55ba0f1",
-                "reference": "e5cc81d1416f796d2153dbb4ba6f0526a55ba0f1",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/37755bc05bbca0ccc8a1e014d576801048a11389",
+                "reference": "37755bc05bbca0ccc8a1e014d576801048a11389",
                 "shasum": ""
             },
             "require": {
@@ -3270,7 +3270,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2014-09-15 11:01:20"
+            "time": "2014-09-15 11:19:40"
         },
         {
             "name": "ydle/logs-bundle",
