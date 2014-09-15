@@ -13,6 +13,7 @@ sudo dpkg -i node_latest_armhf.deb
 
 ```s
 npm install
+bower install
 grunt
 ```
 
