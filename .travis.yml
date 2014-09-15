@@ -1,0 +1,30 @@
+language: php
+
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+  - hhvm-nightly
+
+matrix:
+    allow_failures:
+        - php: 5.6
+        - php: hhvm-nightly
+
+before_script:
+    - echo "Starting install" > install.log
+
+    # Composer
+    - composer self-update
+    - composer config --global process-timeout 5000
+    - set "COMPOSER_PROCESS_TIMEOUT=5000"
+    - composer install --prefer-source
+    - php bin/bowerphp install
+
+    # Install database
+    - php app/console doctrine:database:create -e=prod > /dev/null
+    - php app/console doctrine:schema:create -e=prod > /dev/null
+    - php app/console doctrine:fixtures:load --no-interaction -e=prod > /dev/null
+
+    # Loading web server for selenium
+    - php app/console server:run > error.log &
