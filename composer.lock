@@ -4,116 +4,8 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e3da34415c84bb5a3fdb3ae2ead06fc7",
+    "hash": "1c24cb79145f3be7182c8961e0b24c40",
     "packages": [
-        {
-            "name": "beelab/bowerphp",
-            "version": "v0.1.9-alpha",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Bee-Lab/bowerphp.git",
-                "reference": "792e28bcf36f2ea38bfa589a36891b1b3f5dad0a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Bee-Lab/bowerphp/zipball/792e28bcf36f2ea38bfa589a36891b1b3f5dad0a",
-                "reference": "792e28bcf36f2ea38bfa589a36891b1b3f5dad0a",
-                "shasum": ""
-            },
-            "require": {
-                "camspiers/json-pretty": "1.0.*",
-                "doctrine/cache": "~1.3",
-                "ext-zip": "*",
-                "guzzle/guzzle": "3.8.*",
-                "php": ">=5.3.2",
-                "symfony/console": "~2.3",
-                "symfony/filesystem": "~2.1",
-                "symfony/finder": "~2.2",
-                "symfony/process": "~2.1"
-            },
-            "require-dev": {
-                "ext-phar": "*",
-                "mockery/mockery": "0.9.*",
-                "phpunit/phpunit": "4.1.*"
-            },
-            "bin": [
-                "bin/bowerphp"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Bowerphp": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Massimiliano Arione",
-                    "email": "massimiliano.arione@bee-lab.net"
-                },
-                {
-                    "name": "Mauro D'Alatri",
-                    "email": "mauro.dalatri@bee-lab.net"
-                }
-            ],
-            "description": "An implementation of bower in PHP",
-            "homepage": "http://bowerphp.org/",
-            "keywords": [
-                "dependency",
-                "frontend",
-                "package"
-            ],
-            "time": "2014-06-06 08:28:13"
-        },
-        {
-            "name": "camspiers/json-pretty",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/camspiers/json-pretty.git",
-                "reference": "2378ac3e8e798e9c55bd3c194238cde35af93817"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/camspiers/json-pretty/zipball/2378ac3e8e798e9c55bd3c194238cde35af93817",
-                "reference": "2378ac3e8e798e9c55bd3c194238cde35af93817",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*"
-            },
-            "suggest": {
-                "pimple/pimple": "Useful for dependency injection"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Camspiers": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cam Spiers",
-                    "email": "cameron@heyday.co.nz",
-                    "homepage": "https://github.com/camspiers/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Provides support for json pretty printing in php 5.3",
-            "time": "2014-01-24 12:31:00"
-        },
         {
             "name": "doctrine/annotations",
             "version": "v1.2.0",
@@ -1055,98 +947,6 @@
             "time": "2014-01-12 16:34:06"
         },
         {
-            "name": "guzzle/guzzle",
-            "version": "v3.8.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
-                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=5.3.3",
-                "symfony/event-dispatcher": ">=2.1"
-            },
-            "replace": {
-                "guzzle/batch": "self.version",
-                "guzzle/cache": "self.version",
-                "guzzle/common": "self.version",
-                "guzzle/http": "self.version",
-                "guzzle/inflection": "self.version",
-                "guzzle/iterator": "self.version",
-                "guzzle/log": "self.version",
-                "guzzle/parser": "self.version",
-                "guzzle/plugin": "self.version",
-                "guzzle/plugin-async": "self.version",
-                "guzzle/plugin-backoff": "self.version",
-                "guzzle/plugin-cache": "self.version",
-                "guzzle/plugin-cookie": "self.version",
-                "guzzle/plugin-curlauth": "self.version",
-                "guzzle/plugin-error-response": "self.version",
-                "guzzle/plugin-history": "self.version",
-                "guzzle/plugin-log": "self.version",
-                "guzzle/plugin-md5": "self.version",
-                "guzzle/plugin-mock": "self.version",
-                "guzzle/plugin-oauth": "self.version",
-                "guzzle/service": "self.version",
-                "guzzle/stream": "self.version"
-            },
-            "require-dev": {
-                "doctrine/cache": "*",
-                "monolog/monolog": "1.*",
-                "phpunit/phpunit": "3.7.*",
-                "psr/log": "1.0.*",
-                "symfony/class-loader": "*",
-                "zendframework/zend-cache": "<2.3",
-                "zendframework/zend-log": "<2.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.8-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Guzzle": "src/",
-                    "Guzzle\\Tests": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                },
-                {
-                    "name": "Guzzle Community",
-                    "homepage": "https://github.com/guzzle/guzzle/contributors"
-                }
-            ],
-            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "client",
-                "curl",
-                "framework",
-                "http",
-                "http client",
-                "rest",
-                "web service"
-            ],
-            "time": "2014-01-28 22:29:15"
-        },
-        {
             "name": "incenteev/composer-parameter-handler",
             "version": "v2.1.0",
             "target-dir": "Incenteev/ParameterHandler",
@@ -1654,7 +1454,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -1965,65 +1765,6 @@
                 "php"
             ],
             "time": "2013-08-25 17:11:40"
-        },
-        {
-            "name": "oyejorge/less.php",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/oyejorge/less.php.git",
-                "reference": "0751741c0c25a506bfedb6569172e87d57832a20"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/0751741c0c25a506bfedb6569172e87d57832a20",
-                "reference": "0751741c0c25a506bfedb6569172e87d57832a20",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2"
-            },
-            "bin": [
-                "bin/lessc"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Less": "lib/"
-                },
-                "classmap": [
-                    "lessc.inc.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Matt Agar",
-                    "homepage": "https://github.com/agar"
-                },
-                {
-                    "name": "Martin Jantošovič",
-                    "homepage": "https://github.com/Mordred"
-                },
-                {
-                    "name": "Josh Schmidt",
-                    "homepage": "https://github.com/oyejorge"
-                }
-            ],
-            "description": "PHP port of the Javascript version of LESS http://lesscss.org",
-            "homepage": "http://lessphp.gpeasy.com",
-            "keywords": [
-                "css",
-                "less",
-                "less.js",
-                "lesscss",
-                "php",
-                "stylesheet"
-            ],
-            "time": "2014-07-19 21:51:20"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -3222,17 +2963,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.45",
+            "version": "0.5.46",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "37755bc05bbca0ccc8a1e014d576801048a11389"
+                "reference": "d73f783b446ce47c2f5727a8e97dc3468f588df8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/37755bc05bbca0ccc8a1e014d576801048a11389",
-                "reference": "37755bc05bbca0ccc8a1e014d576801048a11389",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/d73f783b446ce47c2f5727a8e97dc3468f588df8",
+                "reference": "d73f783b446ce47c2f5727a8e97dc3468f588df8",
                 "shasum": ""
             },
             "require": {
@@ -3242,7 +2983,7 @@
                 "ydle/logs-bundle": "0.5.1",
                 "ydle/nodes-bundle": "0.5.6",
                 "ydle/room-bundle": "0.5.7",
-                "ydle/settings-bundle": "0.5.7",
+                "ydle/settings-bundle": "0.5.8",
                 "ydle/user-bundle": "0.5.1"
             },
             "type": "symfony-bundle",
@@ -3270,7 +3011,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2014-09-15 11:19:40"
+            "time": "2014-09-17 12:07:51"
         },
         {
             "name": "ydle/logs-bundle",
@@ -3409,17 +3150,17 @@
         },
         {
             "name": "ydle/settings-bundle",
-            "version": "0.5.7",
+            "version": "0.5.8",
             "target-dir": "Ydle/SettingsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/SettingsBundle.git",
-                "reference": "4910b35d83fa16b6932e0e572f2146345f615baa"
+                "reference": "e1b13683a6ba704cf02e7dbfe8d2e6c8ccc73864"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/SettingsBundle/zipball/4910b35d83fa16b6932e0e572f2146345f615baa",
-                "reference": "4910b35d83fa16b6932e0e572f2146345f615baa",
+                "url": "https://api.github.com/repos/Ydle/SettingsBundle/zipball/e1b13683a6ba704cf02e7dbfe8d2e6c8ccc73864",
+                "reference": "e1b13683a6ba704cf02e7dbfe8d2e6c8ccc73864",
                 "shasum": ""
             },
             "require": {
@@ -3450,7 +3191,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2014-08-14 17:00:10"
+            "time": "2014-09-17 12:06:45"
         },
         {
             "name": "ydle/user-bundle",
@@ -3625,8 +3366,6 @@
         "jms/serializer-bundle": 20,
         "sonata-project/core-bundle": 20,
         "sonata-project/datagrid-bundle": 20,
-        "oyejorge/less.php": 20,
-        "beelab/bowerphp": 15,
         "doctrine/doctrine-fixtures-bundle": 20
     },
     "prefer-stable": false,
