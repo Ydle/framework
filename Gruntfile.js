@@ -27,6 +27,8 @@ module.exports = function (grunt) {
                     'vendor/ydle/hub-bundle/Ydle/HubBundle/Resources/public/js/twig.min.js',
                     'vendor/ydle/hub-bundle/Ydle/HubBundle/Resources/public/js/icheck.min.js',
                     'vendor/ydle/hub-bundle/Ydle/HubBundle/Resources/public/js/jquery.form.js',
+                    'vendor/ydle/hub-bundle/Ydle/HubBundle/Resources/public/js/jquery.flot.js',
+                    'vendor/ydle/hub-bundle/Ydle/HubBundle/Resources/public/js/jquery.flot.time.js',
                     'vendor/ydle/hub-bundle/Ydle/HubBundle/Resources/public/js/dashboard.js',
                     'vendor/ydle/hub-bundle/Ydle/HubBundle/Resources/public/js/ydle.js'
                 ],
