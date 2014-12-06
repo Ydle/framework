@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "541f772fecf99b0e078978f157e5e4d6",
+    "hash": "62ba2882eb4ba404ecdee4539d8aebc1",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -2984,17 +2984,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.52",
+            "version": "0.5.56",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "ac6c491e02afd198ccc876f07d78744fdc60c73e"
+                "reference": "7e5dd659c408800aaf2ee5c7f3c162abf1c7d5b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/ac6c491e02afd198ccc876f07d78744fdc60c73e",
-                "reference": "ac6c491e02afd198ccc876f07d78744fdc60c73e",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/7e5dd659c408800aaf2ee5c7f3c162abf1c7d5b6",
+                "reference": "7e5dd659c408800aaf2ee5c7f3c162abf1c7d5b6",
                 "shasum": ""
             },
             "require": {
@@ -3032,7 +3032,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2014-12-06 19:27:12"
+            "time": "2014-12-06 21:54:39"
         },
         {
             "name": "ydle/logs-bundle",
