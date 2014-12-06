@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "62ba2882eb4ba404ecdee4539d8aebc1",
+    "hash": "2b3fcc9b04722b44e70713212ec1b7e2",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -2984,17 +2984,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.56",
+            "version": "0.5.57",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "7e5dd659c408800aaf2ee5c7f3c162abf1c7d5b6"
+                "reference": "ecf355eb792e024d3a9ae10b9cc2331867f3fb7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/7e5dd659c408800aaf2ee5c7f3c162abf1c7d5b6",
-                "reference": "7e5dd659c408800aaf2ee5c7f3c162abf1c7d5b6",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/ecf355eb792e024d3a9ae10b9cc2331867f3fb7a",
+                "reference": "ecf355eb792e024d3a9ae10b9cc2331867f3fb7a",
                 "shasum": ""
             },
             "require": {
@@ -3004,7 +3004,7 @@
                 "ydle/logs-bundle": "0.5.1",
                 "ydle/nodes-bundle": "0.5.7",
                 "ydle/room-bundle": "0.5.10",
-                "ydle/settings-bundle": "0.5.10",
+                "ydle/settings-bundle": "0.5.11",
                 "ydle/user-bundle": "0.5.1"
             },
             "type": "symfony-bundle",
@@ -3032,7 +3032,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2014-12-06 21:54:39"
+            "time": "2014-12-06 23:49:03"
         },
         {
             "name": "ydle/logs-bundle",
@@ -3171,17 +3171,17 @@
         },
         {
             "name": "ydle/settings-bundle",
-            "version": "0.5.10",
+            "version": "0.5.11",
             "target-dir": "Ydle/SettingsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/SettingsBundle.git",
-                "reference": "85961e1d5994654665ff3dfc902e59cb6560dc53"
+                "reference": "28bc8a380bcfc41193083e02c25f3ed4f607a786"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/SettingsBundle/zipball/85961e1d5994654665ff3dfc902e59cb6560dc53",
-                "reference": "85961e1d5994654665ff3dfc902e59cb6560dc53",
+                "url": "https://api.github.com/repos/Ydle/SettingsBundle/zipball/28bc8a380bcfc41193083e02c25f3ed4f607a786",
+                "reference": "28bc8a380bcfc41193083e02c25f3ed4f607a786",
                 "shasum": ""
             },
             "require": {
@@ -3212,7 +3212,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2014-10-17 03:46:59"
+            "time": "2014-12-06 16:32:05"
         },
         {
             "name": "ydle/user-bundle",
