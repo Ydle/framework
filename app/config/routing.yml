@@ -8,9 +8,9 @@ ydle_settings:
     resource: "@YdleSettingsBundle/Resources/config/routing.xml"
     prefix:   /
     
-ydle_room:
-    resource: "@YdleRoomBundle/Resources/config/routing.yml"
-    prefix:   /
+#ydle_room:
+#    resource: "@YdleRoomBundle/Resources/config/routing.yml"
+#    prefix:   /
 
 ydle_user:
     resource: "@YdleUserBundle/Resources/config/routing.yml"
@@ -23,10 +23,14 @@ ydle_hubi:
 ydle_api:
     resource: "@YdleAPIBundle/Resources/config/routing.yml"
     prefix:   /
+#
+#ydle_logs:
+#    resource: "@YdleLogsBundle/Resources/config/routing.yml"
+#    prefix:   /
 
-ydle_nodes:
-    resource: "@YdleNodesBundle/Resources/config/routing.yml"
-    prefix:   /
+#ydle_nodes:
+#    resource: "@YdleNodesBundle/Resources/config/routing.yml"
+#    prefix:   /
 
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"

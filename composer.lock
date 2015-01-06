@@ -2180,12 +2180,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataCoreBundle.git",
-                "reference": "5ee83966f8aaa1a4d4dabedd18e096dda3df474a"
+                "reference": "21977f75193f012de3e31307c678b9c854b0248a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/5ee83966f8aaa1a4d4dabedd18e096dda3df474a",
-                "reference": "5ee83966f8aaa1a4d4dabedd18e096dda3df474a",
+                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/21977f75193f012de3e31307c678b9c854b0248a",
+                "reference": "21977f75193f012de3e31307c678b9c854b0248a",
                 "shasum": ""
             },
             "require": {
@@ -2237,7 +2237,7 @@
             "keywords": [
                 "sonata"
             ],
-            "time": "2015-01-01 06:51:37"
+            "time": "2015-01-06 10:16:04"
         },
         {
             "name": "sonata-project/datagrid-bundle",
@@ -2989,25 +2989,23 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.63",
+            "version": "0.5.66",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "0b9106ddc191d4d6c306b9c70156063d417c0ab6"
+                "reference": "917ce0e6c03c3f488e375386e4ada3f87b55e934"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/0b9106ddc191d4d6c306b9c70156063d417c0ab6",
-                "reference": "0b9106ddc191d4d6c306b9c70156063d417c0ab6",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/917ce0e6c03c3f488e375386e4ada3f87b55e934",
+                "reference": "917ce0e6c03c3f488e375386e4ada3f87b55e934",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
                 "ydle/api-bundle": "~0.5",
                 "ydle/core-bundle": "~0.5",
-                "ydle/nodes-bundle": "~0.5",
-                "ydle/room-bundle": "~0.5",
                 "ydle/settings-bundle": "~0.5",
                 "ydle/user-bundle": "~0.5"
             },
@@ -3036,111 +3034,21 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-06 08:21:47"
-        },
-        {
-            "name": "ydle/nodes-bundle",
-            "version": "0.5.7",
-            "target-dir": "Ydle/NodesBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Ydle/NodesBundle.git",
-                "reference": "5783f2a31e93e073a4f16cd3f946b92160036e10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/NodesBundle/zipball/5783f2a31e93e073a4f16cd3f946b92160036e10",
-                "reference": "5783f2a31e93e073a4f16cd3f946b92160036e10",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Ydle\\NodesBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Manuel Esteban",
-                    "email": "manuel.esteban@chroniques-lunaires.com",
-                    "homepage": "http://manuel-esteban.com"
-                }
-            ],
-            "description": "Ydle Nodes Bundle",
-            "homepage": "http://ydle.fr",
-            "keywords": [
-                "domotique",
-                "home automation",
-                "nodes",
-                "ydle"
-            ],
-            "time": "2014-09-02 06:55:36"
-        },
-        {
-            "name": "ydle/room-bundle",
-            "version": "0.5.10",
-            "target-dir": "Ydle/RoomBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Ydle/RoomBundle.git",
-                "reference": "82113178fb7302aa4ce2f6baec2c15b4bd019c9e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/RoomBundle/zipball/82113178fb7302aa4ce2f6baec2c15b4bd019c9e",
-                "reference": "82113178fb7302aa4ce2f6baec2c15b4bd019c9e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Ydle\\RoomBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Manuel Esteban",
-                    "email": "manuel.esteban@chroniques-lunaires.com",
-                    "homepage": "http://manuel-esteban.com"
-                }
-            ],
-            "description": "Ydle Room Bundle",
-            "homepage": "http://ydle.fr",
-            "keywords": [
-                "domotique",
-                "home automotion",
-                "room",
-                "ydle"
-            ],
-            "time": "2014-10-31 08:43:16"
+            "time": "2015-01-06 14:06:54"
         },
         {
             "name": "ydle/settings-bundle",
-            "version": "0.5.14",
+            "version": "0.5.16",
             "target-dir": "Ydle/SettingsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/SettingsBundle.git",
-                "reference": "3e97c15a7a8630b094815eb3cd4359fa115a2ca7"
+                "reference": "5cc616888b629553391a30f3f3d2e796630ab4ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/SettingsBundle/zipball/3e97c15a7a8630b094815eb3cd4359fa115a2ca7",
-                "reference": "3e97c15a7a8630b094815eb3cd4359fa115a2ca7",
+                "url": "https://api.github.com/repos/Ydle/SettingsBundle/zipball/5cc616888b629553391a30f3f3d2e796630ab4ac",
+                "reference": "5cc616888b629553391a30f3f3d2e796630ab4ac",
                 "shasum": ""
             },
             "require": {
@@ -3171,7 +3079,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-06 08:14:29"
+            "time": "2015-01-06 14:08:04"
         },
         {
             "name": "ydle/user-bundle",

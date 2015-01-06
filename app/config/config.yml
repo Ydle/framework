@@ -61,10 +61,8 @@ doctrine:
             default:
                 mappings:
                     YdleHubBundle: ~
-                    YdleRoomBundle: ~ 
                     YdleAPIBundle: ~
                     YdleUserBundle: ~
-                    YdleNodesBundle: ~
                     gedmo_translatable:
                         type: annotation
                         prefix: Gedmo\Translatable\Entity
