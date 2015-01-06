@@ -63,7 +63,6 @@ doctrine:
                     YdleHubBundle: ~
                     YdleRoomBundle: ~ 
                     YdleAPIBundle: ~
-                    YdleLogsBundle: ~
                     YdleUserBundle: ~
                     YdleNodesBundle: ~
                     gedmo_translatable:

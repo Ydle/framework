@@ -25,7 +25,6 @@ class AppKernel extends Kernel
             new FOS\UserBundle\FOSUserBundle(),
             new Ydle\RoomBundle\YdleRoomBundle(), 
             new Ydle\APIBundle\YdleAPIBundle(),
-            new Ydle\LogsBundle\YdleLogsBundle(),
             new Ydle\NodesBundle\YdleNodesBundle(),
             new Ydle\UserBundle\YdleUserBundle(),
             new FOS\RestBundle\FOSRestBundle(),

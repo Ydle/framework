@@ -24,10 +24,6 @@ ydle_api:
     resource: "@YdleAPIBundle/Resources/config/routing.yml"
     prefix:   /
 
-ydle_logs:
-    resource: "@YdleLogsBundle/Resources/config/routing.yml"
-    prefix:   /
-
 ydle_nodes:
     resource: "@YdleNodesBundle/Resources/config/routing.yml"
     prefix:   /
