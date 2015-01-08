@@ -61,7 +61,6 @@ doctrine:
             default:
                 mappings:
                     YdleHubBundle: ~
-                    YdleAPIBundle: ~
                     YdleUserBundle: ~
                     gedmo_translatable:
                         type: annotation

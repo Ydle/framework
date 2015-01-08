@@ -1975,17 +1975,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v3.0.14",
+            "version": "v3.0.15",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "dc20d5ab3251587b047859ca2fc06c1b88a38d00"
+                "reference": "0692cd6a8fcf645abce8ea45f7cbbd1942e2b23c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/dc20d5ab3251587b047859ca2fc06c1b88a38d00",
-                "reference": "dc20d5ab3251587b047859ca2fc06c1b88a38d00",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/0692cd6a8fcf645abce8ea45f7cbbd1942e2b23c",
+                "reference": "0692cd6a8fcf645abce8ea45f7cbbd1942e2b23c",
                 "shasum": ""
             },
             "require": {
@@ -2024,7 +2024,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2014-12-30 08:41:47"
+            "time": "2015-01-07 07:13:43"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -2585,23 +2585,23 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.6.1",
+            "version": "v2.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "d805dfd67950848ec0338b4acd75777b340977b7"
+                "reference": "c34ef418015793a4653f2670afb69dd167ebf578"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/d805dfd67950848ec0338b4acd75777b340977b7",
-                "reference": "d805dfd67950848ec0338b4acd75777b340977b7",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/c34ef418015793a4653f2670afb69dd167ebf578",
+                "reference": "c34ef418015793a4653f2670afb69dd167ebf578",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": "~2.2",
+                "doctrine/common": "~2.3",
                 "php": ">=5.3.3",
                 "psr/log": "~1.0",
-                "twig/twig": "~1.12"
+                "twig/twig": "~1.12,>=1.12.3"
             },
             "replace": {
                 "symfony/browser-kit": "self.version",
@@ -2657,7 +2657,7 @@
                 "egulias/email-validator": "~1.2",
                 "ircmaxell/password-compat": "~1.0",
                 "monolog/monolog": "~1.11",
-                "ocramius/proxy-manager": ">=0.3.1,<0.6-dev",
+                "ocramius/proxy-manager": "~0.4|~1.0",
                 "propel/propel1": "~1.6"
             },
             "type": "library",
@@ -2697,7 +2697,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-12-03 16:40:43"
+            "time": "2015-01-07 14:47:29"
         },
         {
             "name": "twig/extensions",
@@ -2898,114 +2898,22 @@
             "time": "2014-10-02 07:26:00"
         },
         {
-            "name": "ydle/api-bundle",
-            "version": "0.5",
-            "target-dir": "Ydle/APIBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Ydle/APIBundle.git",
-                "reference": "d75c675764821df1e827211f694095ab9c2861c3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/APIBundle/zipball/d75c675764821df1e827211f694095ab9c2861c3",
-                "reference": "d75c675764821df1e827211f694095ab9c2861c3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Ydle\\APIBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Manuel Esteban",
-                    "email": "manuel.esteban@chroniques-lunaires.com",
-                    "homepage": "http://manuel-esteban.com"
-                }
-            ],
-            "description": "Ydle API Bundle",
-            "homepage": "http://ydle.fr",
-            "keywords": [
-                "api",
-                "domotique",
-                "home automotion",
-                "ydle"
-            ],
-            "time": "2014-02-22 20:05:53"
-        },
-        {
-            "name": "ydle/core-bundle",
-            "version": "0.5.2",
-            "target-dir": "Ydle/CoreBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Ydle/CoreBundle.git",
-                "reference": "f289f0d8e3d4f4a7cdd598c3f2674bc70ca9151a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/CoreBundle/zipball/f289f0d8e3d4f4a7cdd598c3f2674bc70ca9151a",
-                "reference": "f289f0d8e3d4f4a7cdd598c3f2674bc70ca9151a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Ydle\\CoreBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Manuel Esteban",
-                    "email": "manuel.esteban@chroniques-lunaires.com",
-                    "homepage": "http://manuel-esteban.com"
-                }
-            ],
-            "description": "Ydle Core Bundle",
-            "homepage": "http://ydle.fr",
-            "keywords": [
-                "domotique",
-                "home automation",
-                "hub",
-                "ydle"
-            ],
-            "time": "2014-07-16 15:39:19"
-        },
-        {
             "name": "ydle/hub-bundle",
-            "version": "0.5.66",
+            "version": "0.5.68",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "917ce0e6c03c3f488e375386e4ada3f87b55e934"
+                "reference": "4dc9ab6a373e04d8ab278d7e3019a79d18a5107d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/917ce0e6c03c3f488e375386e4ada3f87b55e934",
-                "reference": "917ce0e6c03c3f488e375386e4ada3f87b55e934",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/4dc9ab6a373e04d8ab278d7e3019a79d18a5107d",
+                "reference": "4dc9ab6a373e04d8ab278d7e3019a79d18a5107d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
-                "ydle/api-bundle": "~0.5",
-                "ydle/core-bundle": "~0.5",
                 "ydle/settings-bundle": "~0.5",
                 "ydle/user-bundle": "~0.5"
             },
@@ -3034,7 +2942,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-06 14:06:54"
+            "time": "2015-01-08 09:08:50"
         },
         {
             "name": "ydle/settings-bundle",
