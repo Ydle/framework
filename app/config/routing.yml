@@ -1,6 +1,6 @@
 ydle_settings:
     type:     rest
-    resource: "@YdleSettingsBundle/Resources/config/routing.xml"
+    resource: "@YdleHubBundle/Resources/config/routing_rest.yml"
     prefix:   /
     
 ydle_user:
