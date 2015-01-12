@@ -28,7 +28,6 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Sonata\DatagridBundle\SonataDatagridBundle(),
             new Sonata\CoreBundle\SonataCoreBundle(),
-            new Ydle\SettingsBundle\YdleSettingsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
