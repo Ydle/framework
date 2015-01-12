@@ -426,12 +426,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "48a3f32bbd798dd175f6fca74d595a85fded281e"
+                "reference": "751709de4a5001aa21521308d25430e23e173b54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/48a3f32bbd798dd175f6fca74d595a85fded281e",
-                "reference": "48a3f32bbd798dd175f6fca74d595a85fded281e",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/751709de4a5001aa21521308d25430e23e173b54",
+                "reference": "751709de4a5001aa21521308d25430e23e173b54",
                 "shasum": ""
             },
             "require": {
@@ -497,7 +497,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2014-12-31 18:08:35"
+            "time": "2015-01-09 14:13:39"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -1268,12 +1268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSSerializerBundle.git",
-                "reference": "05965e02bad0922846f010e6ea4c7508549cf20b"
+                "reference": "8bce2e83779ebdf70116018e68d8d9f930bbe124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/05965e02bad0922846f010e6ea4c7508549cf20b",
-                "reference": "05965e02bad0922846f010e6ea4c7508549cf20b",
+                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/8bce2e83779ebdf70116018e68d8d9f930bbe124",
+                "reference": "8bce2e83779ebdf70116018e68d8d9f930bbe124",
                 "shasum": ""
             },
             "require": {
@@ -1327,7 +1327,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2014-09-25 09:44:03"
+            "time": "2015-01-12 17:22:05"
         },
         {
             "name": "jms/translation-bundle",
@@ -2899,22 +2899,21 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.68",
+            "version": "0.5.71",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "4dc9ab6a373e04d8ab278d7e3019a79d18a5107d"
+                "reference": "0299ca028330cd01a44a728d9cd651030e2e83dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/4dc9ab6a373e04d8ab278d7e3019a79d18a5107d",
-                "reference": "4dc9ab6a373e04d8ab278d7e3019a79d18a5107d",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/0299ca028330cd01a44a728d9cd651030e2e83dd",
+                "reference": "0299ca028330cd01a44a728d9cd651030e2e83dd",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
-                "ydle/settings-bundle": "~0.5",
                 "ydle/user-bundle": "~0.5"
             },
             "type": "symfony-bundle",
@@ -2942,52 +2941,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-08 09:08:50"
-        },
-        {
-            "name": "ydle/settings-bundle",
-            "version": "0.5.16",
-            "target-dir": "Ydle/SettingsBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Ydle/SettingsBundle.git",
-                "reference": "5cc616888b629553391a30f3f3d2e796630ab4ac"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/SettingsBundle/zipball/5cc616888b629553391a30f3f3d2e796630ab4ac",
-                "reference": "5cc616888b629553391a30f3f3d2e796630ab4ac",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Ydle\\SettingsBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Manuel Esteban",
-                    "email": "manuel.esteban@chroniques-lunaires.com",
-                    "homepage": "http://manuel-esteban.com"
-                }
-            ],
-            "description": "Ydle Settings Bundle",
-            "homepage": "http://ydle.fr",
-            "keywords": [
-                "domotique",
-                "home automation",
-                "hub",
-                "ydle"
-            ],
-            "time": "2015-01-06 14:08:04"
+            "time": "2015-01-12 18:00:01"
         },
         {
             "name": "ydle/user-bundle",
