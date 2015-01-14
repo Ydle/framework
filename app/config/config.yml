@@ -61,7 +61,6 @@ doctrine:
             default:
                 mappings:
                     YdleHubBundle: ~
-                    YdleUserBundle: ~
                     gedmo_translatable:
                         type: annotation
                         prefix: Gedmo\Translatable\Entity
@@ -113,7 +112,7 @@ ydle_hub:
 fos_user:
     db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
     firewall_name: main
-    user_class: Ydle\UserBundle\Entity\User
+    user_class: Ydle\HubBundle\Entity\User
 
 parameters:
   app_version: "0.5.1"
