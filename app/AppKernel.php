@@ -23,7 +23,6 @@ class AppKernel extends Kernel
             new JMS\TranslationBundle\JMSTranslationBundle(),
             new Ydle\HubBundle\YdleHubBundle(),
             new FOS\UserBundle\FOSUserBundle(),
-            new Ydle\UserBundle\YdleUserBundle(),
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Sonata\DatagridBundle\SonataDatagridBundle(),
