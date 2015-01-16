@@ -2,6 +2,11 @@ ydle_hub:
     resource: "@YdleHubBundle/Resources/config/routing.yml"
     prefix:   /
 
+ydle_settings:
+    type:     rest
+    resource: "@YdleHubBundle/Resources/config/routing_rest.yml"
+    prefix:   /
+    
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
 
