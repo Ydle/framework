@@ -427,12 +427,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "53974672f036c73908cb715f14901152b8bc1b46"
+                "reference": "c12410ca351c7742ced38fe9441f6b84be467e97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/53974672f036c73908cb715f14901152b8bc1b46",
-                "reference": "53974672f036c73908cb715f14901152b8bc1b46",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/c12410ca351c7742ced38fe9441f6b84be467e97",
+                "reference": "c12410ca351c7742ced38fe9441f6b84be467e97",
                 "shasum": ""
             },
             "require": {
@@ -498,7 +498,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2015-01-17 16:38:20"
+            "time": "2015-01-20 13:05:21"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -862,12 +862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSUserBundle.git",
-                "reference": "4ceecb62f8bfbee56a5ec83f5ab6124710cf89d1"
+                "reference": "f54031a652846cd8e7b12119fe713eae90e24cf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/4ceecb62f8bfbee56a5ec83f5ab6124710cf89d1",
-                "reference": "4ceecb62f8bfbee56a5ec83f5ab6124710cf89d1",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/f54031a652846cd8e7b12119fe713eae90e24cf9",
+                "reference": "f54031a652846cd8e7b12119fe713eae90e24cf9",
                 "shasum": ""
             },
             "require": {
@@ -921,7 +921,7 @@
             "keywords": [
                 "User management"
             ],
-            "time": "2014-12-29 10:27:58"
+            "time": "2015-01-20 09:35:03"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -2900,17 +2900,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.75",
+            "version": "0.5.77",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "072581fa78d3520bffd52e631eb7b162bcf02ca3"
+                "reference": "50cfe224467f99dd64f5eca7062c125864105c9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/072581fa78d3520bffd52e631eb7b162bcf02ca3",
-                "reference": "072581fa78d3520bffd52e631eb7b162bcf02ca3",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/50cfe224467f99dd64f5eca7062c125864105c9c",
+                "reference": "50cfe224467f99dd64f5eca7062c125864105c9c",
                 "shasum": ""
             },
             "require": {
@@ -2941,7 +2941,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-17 22:03:08"
+            "time": "2015-01-20 14:10:16"
         }
     ],
     "packages-dev": [
@@ -3008,12 +3008,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "9a5b5289eb22079ec139ba1eb06043d4b89c6677"
+                "reference": "c5ff0542772102ddd4e2fbe173e9ad40ad67c22f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/9a5b5289eb22079ec139ba1eb06043d4b89c6677",
-                "reference": "9a5b5289eb22079ec139ba1eb06043d4b89c6677",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/c5ff0542772102ddd4e2fbe173e9ad40ad67c22f",
+                "reference": "c5ff0542772102ddd4e2fbe173e9ad40ad67c22f",
                 "shasum": ""
             },
             "require": {
@@ -3057,7 +3057,7 @@
                 "Fixture",
                 "persistence"
             ],
-            "time": "2014-09-16 05:03:04"
+            "time": "2015-01-19 02:21:37"
         }
     ],
     "aliases": [],
