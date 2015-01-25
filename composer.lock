@@ -2219,12 +2219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataCoreBundle.git",
-                "reference": "21977f75193f012de3e31307c678b9c854b0248a"
+                "reference": "938dbeaca63caa60a5edaaaffb4a711da3a00d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/21977f75193f012de3e31307c678b9c854b0248a",
-                "reference": "21977f75193f012de3e31307c678b9c854b0248a",
+                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/938dbeaca63caa60a5edaaaffb4a711da3a00d14",
+                "reference": "938dbeaca63caa60a5edaaaffb4a711da3a00d14",
                 "shasum": ""
             },
             "require": {
@@ -2276,7 +2276,7 @@
             "keywords": [
                 "sonata"
             ],
-            "time": "2015-01-06 10:16:04"
+            "time": "2015-01-23 16:29:54"
         },
         {
             "name": "sonata-project/datagrid-bundle",
@@ -2938,17 +2938,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.82",
+            "version": "0.5.83",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "13d067c849be457c654f5275bb3b5dc83b9c088e"
+                "reference": "06b0925f94c584a2f119b1d13059eac5b7340569"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/13d067c849be457c654f5275bb3b5dc83b9c088e",
-                "reference": "13d067c849be457c654f5275bb3b5dc83b9c088e",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/06b0925f94c584a2f119b1d13059eac5b7340569",
+                "reference": "06b0925f94c584a2f119b1d13059eac5b7340569",
                 "shasum": ""
             },
             "require": {
@@ -2979,7 +2979,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-23 16:08:13"
+            "time": "2015-01-25 07:49:29"
         }
     ],
     "packages-dev": [
