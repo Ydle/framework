@@ -467,12 +467,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "c12410ca351c7742ced38fe9441f6b84be467e97"
+                "reference": "fa43b4706b2670860434b953acb3430b31688e9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/c12410ca351c7742ced38fe9441f6b84be467e97",
-                "reference": "c12410ca351c7742ced38fe9441f6b84be467e97",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/fa43b4706b2670860434b953acb3430b31688e9d",
+                "reference": "fa43b4706b2670860434b953acb3430b31688e9d",
                 "shasum": ""
             },
             "require": {
@@ -538,7 +538,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2015-01-20 13:05:21"
+            "time": "2015-01-25 09:58:35"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -2938,17 +2938,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.83",
+            "version": "0.5.84",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "06b0925f94c584a2f119b1d13059eac5b7340569"
+                "reference": "947b6b01c28ad06089ecdf3a843aec4bf5e0df01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/06b0925f94c584a2f119b1d13059eac5b7340569",
-                "reference": "06b0925f94c584a2f119b1d13059eac5b7340569",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/947b6b01c28ad06089ecdf3a843aec4bf5e0df01",
+                "reference": "947b6b01c28ad06089ecdf3a843aec4bf5e0df01",
                 "shasum": ""
             },
             "require": {
@@ -2979,7 +2979,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-25 07:49:29"
+            "time": "2015-01-25 17:13:00"
         }
     ],
     "packages-dev": [
