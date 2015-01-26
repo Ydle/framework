@@ -467,12 +467,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "fa43b4706b2670860434b953acb3430b31688e9d"
+                "reference": "ac1dfc182ab948c902948cfa9d519a6049da5e85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/fa43b4706b2670860434b953acb3430b31688e9d",
-                "reference": "fa43b4706b2670860434b953acb3430b31688e9d",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/ac1dfc182ab948c902948cfa9d519a6049da5e85",
+                "reference": "ac1dfc182ab948c902948cfa9d519a6049da5e85",
                 "shasum": ""
             },
             "require": {
@@ -538,7 +538,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2015-01-25 09:58:35"
+            "time": "2015-01-26 12:52:13"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -2170,16 +2170,16 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "5b4eb4743ebe68276c911c84101ecdf4a9ae76ee"
+                "reference": "134cecf1c61256bd8e973e11376891a724543820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/5b4eb4743ebe68276c911c84101ecdf4a9ae76ee",
-                "reference": "5b4eb4743ebe68276c911c84101ecdf4a9ae76ee",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/134cecf1c61256bd8e973e11376891a724543820",
+                "reference": "134cecf1c61256bd8e973e11376891a724543820",
                 "shasum": ""
             },
             "require": {
@@ -2211,7 +2211,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2014-07-19 10:52:35"
+            "time": "2015-01-26 16:25:19"
         },
         {
             "name": "sonata-project/core-bundle",
@@ -2444,16 +2444,16 @@
         },
         {
             "name": "symfony/assetic-bundle",
-            "version": "v2.5.0",
+            "version": "v2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/AsseticBundle.git",
-                "reference": "90ea7fb66d6d5245fd4afc16e4c8070214254fec"
+                "reference": "39d0e15b63936464a9929c00f8e28a30f2331419"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/90ea7fb66d6d5245fd4afc16e4c8070214254fec",
-                "reference": "90ea7fb66d6d5245fd4afc16e4c8070214254fec",
+                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/39d0e15b63936464a9929c00f8e28a30f2331419",
+                "reference": "39d0e15b63936464a9929c00f8e28a30f2331419",
                 "shasum": ""
             },
             "require": {
@@ -2504,7 +2504,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2014-10-15 12:03:38"
+            "time": "2015-01-26 13:00:20"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -2938,17 +2938,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.85",
+            "version": "0.5.86",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "85a74bb1409eabcdcdc87ed133c3d37be402c369"
+                "reference": "d8b930f12188d0e7a0b7a1d757ba55a66c5de7d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/85a74bb1409eabcdcdc87ed133c3d37be402c369",
-                "reference": "85a74bb1409eabcdcdc87ed133c3d37be402c369",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/d8b930f12188d0e7a0b7a1d757ba55a66c5de7d6",
+                "reference": "d8b930f12188d0e7a0b7a1d757ba55a66c5de7d6",
                 "shasum": ""
             },
             "require": {
@@ -2979,7 +2979,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-26 08:54:32"
+            "time": "2015-01-26 17:14:32"
         }
     ],
     "packages-dev": [
