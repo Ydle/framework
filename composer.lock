@@ -2792,16 +2792,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.17.0",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "2493970fa4d587eca73f77e6d8bd48a8bdd4c608"
+                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/2493970fa4d587eca73f77e6d8bd48a8bdd4c608",
-                "reference": "2493970fa4d587eca73f77e6d8bd48a8bdd4c608",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/4cf7464348e7f9893a93f7096a90b73722be99cf",
+                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf",
                 "shasum": ""
             },
             "require": {
@@ -2810,7 +2810,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 }
             },
             "autoload": {
@@ -2845,7 +2845,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-01-14 10:15:49"
+            "time": "2015-01-25 17:32:08"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
@@ -2938,17 +2938,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.84",
+            "version": "0.5.85",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "947b6b01c28ad06089ecdf3a843aec4bf5e0df01"
+                "reference": "85a74bb1409eabcdcdc87ed133c3d37be402c369"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/947b6b01c28ad06089ecdf3a843aec4bf5e0df01",
-                "reference": "947b6b01c28ad06089ecdf3a843aec4bf5e0df01",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/85a74bb1409eabcdcdc87ed133c3d37be402c369",
+                "reference": "85a74bb1409eabcdcdc87ed133c3d37be402c369",
                 "shasum": ""
             },
             "require": {
@@ -2979,7 +2979,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-25 17:13:00"
+            "time": "2015-01-26 08:54:32"
         }
     ],
     "packages-dev": [
