@@ -2444,32 +2444,33 @@
         },
         {
             "name": "symfony/assetic-bundle",
-            "version": "v2.6.0",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/AsseticBundle.git",
-                "reference": "39d0e15b63936464a9929c00f8e28a30f2331419"
+                "reference": "422b0add2110f0cf9bc7a873a386ea053f4a89f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/39d0e15b63936464a9929c00f8e28a30f2331419",
-                "reference": "39d0e15b63936464a9929c00f8e28a30f2331419",
+                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/422b0add2110f0cf9bc7a873a386ea053f4a89f0",
+                "reference": "422b0add2110f0cf9bc7a873a386ea053f4a89f0",
                 "shasum": ""
             },
             "require": {
                 "kriswallsmith/assetic": "~1.2",
                 "php": ">=5.3.0",
-                "symfony/console": "~2.1",
-                "symfony/framework-bundle": "~2.1",
-                "symfony/yaml": "~2.1"
+                "symfony/console": "~2.3",
+                "symfony/dependency-injection": "~2.3",
+                "symfony/framework-bundle": "~2.3",
+                "symfony/yaml": "~2.3"
             },
             "require-dev": {
                 "kriswallsmith/spork": "~0.2",
                 "patchwork/jsqueeze": "~1.0",
-                "symfony/class-loader": "~2.1",
-                "symfony/css-selector": "~2.1",
-                "symfony/dom-crawler": "~2.1",
-                "symfony/twig-bundle": "~2.1"
+                "symfony/class-loader": "~2.3",
+                "symfony/css-selector": "~2.3",
+                "symfony/dom-crawler": "~2.3",
+                "symfony/twig-bundle": "~2.3"
             },
             "suggest": {
                 "kriswallsmith/spork": "to be able to dump assets in parallel",
@@ -2504,7 +2505,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2015-01-26 13:00:20"
+            "time": "2015-01-27 12:45:16"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -2938,17 +2939,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.87",
+            "version": "0.5.88",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "215defcdaecec2af1afc13f870c242796a0637b0"
+                "reference": "3379c87e86db77d5321069615a20602792db36ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/215defcdaecec2af1afc13f870c242796a0637b0",
-                "reference": "215defcdaecec2af1afc13f870c242796a0637b0",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/3379c87e86db77d5321069615a20602792db36ea",
+                "reference": "3379c87e86db77d5321069615a20602792db36ea",
                 "shasum": ""
             },
             "require": {
@@ -2979,7 +2980,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-26 19:26:20"
+            "time": "2015-01-27 13:47:45"
         }
     ],
     "packages-dev": [
