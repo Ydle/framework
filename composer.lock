@@ -965,16 +965,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.3.10",
+            "version": "v2.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "4e9bbd54ebb22bb004b2ec71b1b0ce3ed5b992d0"
+                "reference": "5e19886a64ef7e3540bb362eacfdf7d60c5608e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/4e9bbd54ebb22bb004b2ec71b1b0ce3ed5b992d0",
-                "reference": "4e9bbd54ebb22bb004b2ec71b1b0ce3ed5b992d0",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/5e19886a64ef7e3540bb362eacfdf7d60c5608e6",
+                "reference": "5e19886a64ef7e3540bb362eacfdf7d60c5608e6",
                 "shasum": ""
             },
             "require": {
@@ -1039,7 +1039,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2015-01-21 20:55:10"
+            "time": "2015-01-28 09:12:46"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -2219,12 +2219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataCoreBundle.git",
-                "reference": "938dbeaca63caa60a5edaaaffb4a711da3a00d14"
+                "reference": "5d1e71c46b892c4e3cc5161a2c48ab46c8c07203"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/938dbeaca63caa60a5edaaaffb4a711da3a00d14",
-                "reference": "938dbeaca63caa60a5edaaaffb4a711da3a00d14",
+                "url": "https://api.github.com/repos/sonata-project/SonataCoreBundle/zipball/5d1e71c46b892c4e3cc5161a2c48ab46c8c07203",
+                "reference": "5d1e71c46b892c4e3cc5161a2c48ab46c8c07203",
                 "shasum": ""
             },
             "require": {
@@ -2276,7 +2276,7 @@
             "keywords": [
                 "sonata"
             ],
-            "time": "2015-01-23 16:29:54"
+            "time": "2015-01-28 15:17:29"
         },
         {
             "name": "sonata-project/datagrid-bundle",
@@ -2939,17 +2939,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.88",
+            "version": "0.5.89",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "3379c87e86db77d5321069615a20602792db36ea"
+                "reference": "e9f3a5a8bbcc86feea92169606b666d1e65600ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/3379c87e86db77d5321069615a20602792db36ea",
-                "reference": "3379c87e86db77d5321069615a20602792db36ea",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/e9f3a5a8bbcc86feea92169606b666d1e65600ab",
+                "reference": "e9f3a5a8bbcc86feea92169606b666d1e65600ab",
                 "shasum": ""
             },
             "require": {
@@ -2980,7 +2980,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-27 13:47:45"
+            "time": "2015-01-28 16:41:21"
         }
     ],
     "packages-dev": [
