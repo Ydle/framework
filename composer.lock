@@ -2939,17 +2939,17 @@
         },
         {
             "name": "ydle/hub-bundle",
-            "version": "0.5.90",
+            "version": "0.5.92",
             "target-dir": "Ydle/HubBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ydle/HubBundle.git",
-                "reference": "e763a5d5b5e3a8dafdacb04dd10d95f056694d1b"
+                "reference": "972968eaebd64661e958710ce1254219b13bd01d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/e763a5d5b5e3a8dafdacb04dd10d95f056694d1b",
-                "reference": "e763a5d5b5e3a8dafdacb04dd10d95f056694d1b",
+                "url": "https://api.github.com/repos/Ydle/HubBundle/zipball/972968eaebd64661e958710ce1254219b13bd01d",
+                "reference": "972968eaebd64661e958710ce1254219b13bd01d",
                 "shasum": ""
             },
             "require": {
@@ -2980,7 +2980,7 @@
                 "hub",
                 "ydle"
             ],
-            "time": "2015-01-28 19:48:49"
+            "time": "2015-01-29 15:11:54"
         }
     ],
     "packages-dev": [
