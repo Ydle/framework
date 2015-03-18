@@ -12,5 +12,5 @@ parameters:
     mailer_password:   ~
 
     locale:            en
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    secret:            f2ea24e64ede005e488e4048afa795fc2d8d472f
     master_address: "http://127.0.0.1"
