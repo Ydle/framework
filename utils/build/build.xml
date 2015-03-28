@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Ydle-dev" default="ci" basedir="../../..">
+<!--    <property name="source" value="./jobs/Ydle-Dev/workspace" /> -->
+    <property name="source" value="./workspace/src" />
+    <target name="ci"
+        description="Tâche principale d'intégration continue"
+        depends="clean,qa"
+    />
+
+    <target name="clean" description="Vide les répertoires d'artefacts">
+        <delete dir="${project.basedir}/build/api" />
+        <delete dir="${project.basedir}/build/code-browser" />
+        <delete dir="${project.basedir}/build/coverage" />
+        <delete dir="${project.basedir}/build/logs" />
+        <delete dir="${project.basedir}/build/pdepend" />
+
+        <mkdir dir="${project.basedir}/build/api" />
+        <mkdir dir="${project.basedir}/build/code-browser" />
+        <mkdir dir="${project.basedir}/build/coverage" />
+        <mkdir dir="${project.basedir}/build/logs" />
+        <mkdir dir="${project.basedir}/build/pdepend" />
+    </target>
+    
+
+    <target name="qa" description="Lance les outils d'analyse">
+        <phingcall target="pdepend" />
+
+        <phingcall target="phpmd" />
+
+        <phingcall target="phpcpd" />
+        <phingcall target="phploc" />
+        <phingcall target="phpcs" />
+        <phingcall target="phpunit" />
+        <phingcall target="phpcb" />
+    </target>
+
+    <target name="pdepend">
+        <phpdepend file="${project.basedir}/${source}">
+            <logger type="jdepend-xml" outfile="${project.basedir}/build/logs/jdepend.xml" />
+            <logger type="jdepend-chart" outfile="${project.basedir}/build/pdepend/dependencies.svg" />
+            <logger type="overview-pyramid" outfile="${project.basedir}/build/pdepend/overview-pyramid.svg" />
+        </phpdepend>
+    </target>
+<!--
+    <target name="phpmd">
+        <phpmd file="${project.basedir}/${source}">
+            <formatter type="xml" outfile="${project.basedir}/build/phpmd.xml" />
+        </phpmd>
+    </target>
+-->
+<!--
+   <target name="phpmd">
+        <phpmd rulesets="codesize,design,naming,unusedcode">
+            <fileset dir="${source}">
+                <include name="**/*.php" />
+                <include name="*.php" />
+            </fileset>
+            <formatter type="xml" outfile="${project.basedir}/build/logs/pmd.xml"/>
+        </phpmd>
+    </target>
+-->
+
+    <target name="phpmd" description="Generate pmd.xml using PHPMD">
+        <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source} xml codesize,design,naming,unusedcode --reportfile ${project.basedir}/build/logs/pmd.xml" />
+    </target>
+
+<!--
+    <target name="phpcpd">
+        <phpcpd file="${project.basedir}/${source}">
+            <formatter type="pmd" outfile="${project.basedir}/build/logs/pmd-cpd.xml"/>
+        </phpcpd>
+    </target>
+-->
+    <target name="phpcpd" description="Generate pmd-cpd.xml using PHPCPD">
+        <exec logoutput="true" command="phpcpd --log-pmd ${project.basedir}/build/logs/pmd-cpd.xml ${project.basedir}/${source}" />
+    </target>
+
+    <target name="phploc">
+        <exec logoutput="true" dir="${project.basedir}" command="phploc --log-csv '${project.basedir}/build/logs/phploc.csv' '${project.basedir}/${source}'" escape="false" />
+    </target>
+
+    <target name="phpcs">
+        <phpcodesniffer standard="Zend">
+            <fileset dir="${project.basedir}/${source}">
+                <include name="**/*.php"/>
+            </fileset>
+            <formatter type="checkstyle" outfile="${project.basedir}/build/logs/checkstyle.xml"/>
+        </phpcodesniffer>
+    </target>
+
+    <target name="phpunit">
+        <exec logoutput="true" dir="${project.basedir}/${source}/Ydle/HubBundle/Tests" command="phpunit" escape="false" />
+    </target>
+
+    <target name="phpcb">
+        <exec logoutput="true" command="phpcb --log '${project.basedir}/build/logs' --source '${project.basedir}/${source}' --output '${project.basedir}/build/code-browser'" escape="false" />
+    </target>
+</project>
