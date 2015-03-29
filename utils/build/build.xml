@@ -46,7 +46,7 @@
     <target name="phpmd-ci" description="Perform project mess detection using PHPMD">
         <phpmd rulesets="codesize,design,naming,unusedcode">
             <fileset refid="${project.basedir}/${source}/src/Ydle"/>
-            <formatter type="xml" outfile="{project.basedir}/build/logs/pmd.xml"/>
+            <formatter type="xml" outfile="${project.basedir}/build/logs/pmd.xml"/>
         </phpmd>
     </target>
 
