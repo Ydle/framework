@@ -42,13 +42,16 @@
             <logger type="overview-pyramid" outfile="${project.basedir}/${build}/pdepend/overview-pyramid.svg" />
         </phpdepend>
     </target>
-
+<!--
     <target name="phpmd">
         <phpmd file="${project.basedir}/${source}/src/Ydle">
             <formatter type="xml" outfile="${project.basedir}/${source}/app/phpmd.xml" />
         </phpmd>
     </target>
-
+    -->
+    <target name="phpmd" description="Generate phpmd.xml using PHPMD">
+        <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode --reportfile ${project.basedir}/${build}/phpmd.xml" />
+    </target>
 
 <!--
     <target name="phpcpd">
