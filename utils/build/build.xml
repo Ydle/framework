@@ -79,9 +79,9 @@
 -->
 <!--
 
-Le "bon"
+Le "bon" attention remettre le double tiret
     <target name="phpmd" description="Generate pmd.xml using PHPMD">
-        <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode --reportfile ${project.basedir}/build/logs/pmd.xml" />
+        <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode - -reportfile ${project.basedir}/build/logs/pmd.xml" />
     </target>
 -->
 <!--
