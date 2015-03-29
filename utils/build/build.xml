@@ -78,7 +78,7 @@
     </target>
 
     <target name="phpunit">
-        <exec logoutput="true" dir="${project.basedir}/${source}/src/Ydle" command="phpunit --configuration=phpunit.xml.dist" />
+        <exec logoutput="true" dir="${project.basedir}/${source}/src/Ydle" command="phpunit --configuration=../../app/phpunit.xml.dist" />
     </target>
 <!--  escape="false" -->
     <target name="phpcb">
