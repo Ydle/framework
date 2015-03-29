@@ -43,14 +43,9 @@
         </phpdepend>
     </target>
 
-
-    <target name="phpmd" description="Generate pmd.xml using PHPMD">
-        <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode --reportfile ${project.basedir}/${source}/app/phpmd.xml" />
-    </target>
-
     <target name="phpmd">
-        <phpmd file="${project.basedir}/${source}/src">
-            <formatter type="xml" outfile="${project.basedir}/${build}/phpmd.xml" />
+        <phpmd file="${project.basedir}/${source}/src/Ydle">
+            <formatter type="xml" outfile="${project.basedir}/${source}/app/phpmd.xml" />
         </phpmd>
     </target>
 
