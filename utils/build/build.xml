@@ -2,24 +2,24 @@
 <project name="Ydle-dev" default="ci" basedir="../../..">
 <!--    <property name="source" value="./jobs/Ydle-Dev/workspace" /> -->
     <property name="source" value="./jobs/Ydle-Dev/workspace" />
-    <property name="build" value="./jobs/Ydle-Dev/workspace" />
+    <property name="build" value="./jobs/Ydle-Dev/workspace/build" />
     <target name="ci"
         description="Tâche principale d'intégration continue"
         depends="clean,qa"
     />
 
     <target name="clean" description="Vide les répertoires d'artefacts">
-        <delete dir="${project.basedir}/${build}/build/api" />
-        <delete dir="${project.basedir}/${build}/build/code-browser" />
-        <delete dir="${project.basedir}/${build}/build/coverage" />
-        <delete dir="${project.basedir}/${build}/build/logs" />
-        <delete dir="${project.basedir}/${build}/build/pdepend" />
+        <delete dir="${project.basedir}/${build}/api" />
+        <delete dir="${project.basedir}/${build}/code-browser" />
+        <delete dir="${project.basedir}/${build}/coverage" />
+        <delete dir="${project.basedir}/${build}/logs" />
+        <delete dir="${project.basedir}/${build}/pdepend" />
 
-        <mkdir dir="${project.basedir}/${build}/build/api" />
-        <mkdir dir="${project.basedir}/${build}/build/code-browser" />
-        <mkdir dir="${project.basedir}/${build}/build/coverage" />
-        <mkdir dir="${project.basedir}/${build}/build/logs" />
-        <mkdir dir="${project.basedir}/${build}/build/pdepend" />
+        <mkdir dir="${project.basedir}/${build}/api" />
+        <mkdir dir="${project.basedir}/${build}/code-browser" />
+        <mkdir dir="${project.basedir}/${build}/coverage" />
+        <mkdir dir="${project.basedir}/${build}/logs" />
+        <mkdir dir="${project.basedir}/${build}/pdepend" />
     </target>
     
 
@@ -37,15 +37,15 @@
 
     <target name="pdepend">
         <phpdepend file="${project.basedir}/${source}/src/Ydle">
-            <logger type="jdepend-xml" outfile="${project.basedir}/${build}/build/logs/jdepend.xml" />
-            <logger type="jdepend-chart" outfile="${project.basedir}/${build}/build/pdepend/dependencies.svg" />
-            <logger type="overview-pyramid" outfile="${project.basedir}/${build}/build/pdepend/overview-pyramid.svg" />
+            <logger type="jdepend-xml" outfile="${project.basedir}/${build}/logs/jdepend.xml" />
+            <logger type="jdepend-chart" outfile="${project.basedir}/${build}/pdepend/dependencies.svg" />
+            <logger type="overview-pyramid" outfile="${project.basedir}/${build}/pdepend/overview-pyramid.svg" />
         </phpdepend>
     </target>
 
 
     <target name="phpmd" description="Generate pmd.xml using PHPMD">
-        <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode --reportfile ${project.basedir}/${build}/app/phpmd.xml" />
+        <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode --reportfile ${project.basedir}/${source}/app/phpmd.xml" />
     </target>
 
 <!--
@@ -76,11 +76,11 @@
     </target>
 -->
     <target name="phpcpd" description="Generate pmd-cpd.xml using PHPCPD">
-        <exec logoutput="true" command="phpcpd --log-pmd ${project.basedir}/${build}/build/logs/pmd-cpd.xml ${project.basedir}/${source}/src/Ydle" />
+        <exec logoutput="true" command="phpcpd --log-pmd ${project.basedir}/${build}/logs/pmd-cpd.xml ${project.basedir}/${source}/src/Ydle" />
     </target>
 
     <target name="phploc">
-        <exec logoutput="true" dir="${project.basedir}" command="phploc --log-csv '${project.basedir}/${build}/build/logs/phploc.csv' '${project.basedir}/${source}/src/Ydle'" escape="false" />
+        <exec logoutput="true" dir="${project.basedir}" command="phploc --log-csv '${project.basedir}/${build}/logs/phploc.csv' '${project.basedir}/${source}/src/Ydle'" escape="false" />
     </target>
 
     <target name="phpcs">
@@ -88,15 +88,15 @@
             <fileset dir="${project.basedir}/${source}/src/Ydle">
                 <include name="**/*.php"/>
             </fileset>
-            <formatter type="checkstyle" outfile="${project.basedir}/${build}/build/logs/checkstyle.xml"/>
+            <formatter type="checkstyle" outfile="${project.basedir}/${build}/logs/checkstyle.xml"/>
         </phpcodesniffer>
     </target>
 
     <target name="phpunit">
-        <exec logoutput="true" dir="${project.basedir}/${source}/src/Ydle/HubBundle/Tests" command="phpunit" escape="false" />
+        <exec logoutput="true" dir="${project.basedir}/${source}/src/Ydle" command="phpunit" escape="false" />
     </target>
 
     <target name="phpcb">
-        <exec logoutput="true" command="phpcb --log '${project.basedir}/${build}/build/logs' --source '${project.basedir}/${source}/src/Ydle' --output '${project.basedir}/${build}/build/code-browser'" escape="false" />
+        <exec logoutput="true" command="phpcb --log '${project.basedir}/${build}/build/logs' --source '${project.basedir}/${source}/src/Ydle' --output '${project.basedir}/${build}/code-browser'" escape="false" />
     </target>
 </project>
