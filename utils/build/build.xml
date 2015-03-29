@@ -78,9 +78,9 @@
     </target>
 
     <target name="phpunit">
-        <exec logoutput="true" dir="${project.basedir}/${source}/src/Ydle" command="phpunit" escape="false" />
+        <exec logoutput="true" dir="${project.basedir}/${source}/src/Ydle" command="phpunit --configuration=phpunit.xml.dist" />
     </target>
-
+<!--  escape="false" -->
     <target name="phpcb">
         <exec logoutput="true" command="phpcb --log '${project.basedir}/${build}/logs' --source '${project.basedir}/${source}/src/Ydle' --output '${project.basedir}/${build}/code-browser'" escape="false" />
     </target>
