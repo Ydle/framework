@@ -48,24 +48,11 @@
         <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode --reportfile ${project.basedir}/${source}/app/phpmd.xml" />
     </target>
 
-<!--
     <target name="phpmd">
-        <phpmd file="${project.basedir}/${source}">
-            <formatter type="xml" outfile="${project.basedir}/build/phpmd.xml" />
+        <phpmd file="${project.basedir}/${source}/src">
+            <formatter type="xml" outfile="${project.basedir}/${build}/phpmd.xml" />
         </phpmd>
     </target>
--->
-<!--
-   <target name="phpmd">
-        <phpmd rulesets="codesize,design,naming,unusedcode">
-            <fileset dir="${source}">
-                <include name="**/*.php" />
-                <include name="*.php" />
-            </fileset>
-            <formatter type="xml" outfile="${project.basedir}/build/logs/pmd.xml"/>
-        </phpmd>
-    </target>
--->
 
 
 <!--
