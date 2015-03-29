@@ -41,20 +41,12 @@
             <logger type="overview-pyramid" outfile="${project.basedir}/build/pdepend/overview-pyramid.svg" />
         </phpdepend>
     </target>
-    
 
-    <target name="phpmd-ci" description="Perform project mess detection using PHPMD">
-        <phpmd rulesets="codesize,design,naming,unusedcode">
-            <fileset refid="${project.basedir}/${source}/src/Ydle"/>
-            <formatter type="xml" outfile="${project.basedir}/build/logs/pmd.xml"/>
-        </phpmd>
+
+    <target name="phpmd" description="Generate pmd.xml using PHPMD">
+        <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode --reportfile ${project.basedir}/build/logs/pmd.xml" />
     </target>
 
-    <target name="phpmd" description="Perform project mess detection using PHPMD">
-        <phpmd rulesets="codesize,design,naming,unusedcode">
-            <fileset refid="${project.basedir}/${source}/src/Ydle"/>
-        </phpmd>
-    </target> 
 <!--
     <target name="phpmd">
         <phpmd file="${project.basedir}/${source}">
@@ -73,13 +65,8 @@
         </phpmd>
     </target>
 -->
-<!--
 
-Le "bon" attention remettre le double tiret
-    <target name="phpmd" description="Generate pmd.xml using PHPMD">
-        <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode - -reportfile ${project.basedir}/build/logs/pmd.xml" />
-    </target>
--->
+
 <!--
     <target name="phpcpd">
         <phpcpd file="${project.basedir}/${source}">
