@@ -43,18 +43,14 @@
     </target>
     
 
-    <target name="phpmd-ci" depends="init" description="Perform project mess detection using PHPMD">
+    <target name="phpmd-ci" description="Perform project mess detection using PHPMD">
         <phpmd rulesets="codesize,design,naming,unusedcode">
             <fileset refid="${project.basedir}/${source}/src/Ydle"/>
             <formatter type="xml" outfile="{project.basedir}/build/logs/pmd.xml"/>
         </phpmd>
     </target>
 
-    <!--
-    This almost duplication of the above target, is so that it can be run standalone in the command
-    line, and have the results echoed to screen, instead of a file.
-    -->
-    <target name="phpmd" depends="init" description="Perform project mess detection using PHPMD">
+    <target name="phpmd" description="Perform project mess detection using PHPMD">
         <phpmd rulesets="codesize,design,naming,unusedcode">
             <fileset refid="${project.basedir}/${source}/src/Ydle"/>
         </phpmd>
