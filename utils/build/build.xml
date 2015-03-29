@@ -50,9 +50,9 @@
     </target>
     -->
     <target name="phpmd" description="Generate phpmd.xml using PHPMD">
-        <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode --reportfile ${project.basedir}/${build}/phpmd.xml" />
+        <exec logoutput="true" command="phpmd '${project.basedir}/${source}/src/Ydle' xml codesize,design,naming,unusedcode --reportfile '${project.basedir}/${build}/phpmd.xml'" />
     </target>
-
+<!--  spawn="true" -->
 <!--
     <target name="phpcpd">
         <phpcpd file="${project.basedir}/${source}">
