@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Ydle-dev" default="ci" basedir="../../..">
 <!--    <property name="source" value="./jobs/Ydle-Dev/workspace" /> -->
-    <property name="source" value="./jobs/Ydle-dev/workspace" />
+    <property name="source" value="./jobs/Ydle-Dev/workspace" />
     <target name="ci"
         description="Tâche principale d'intégration continue"
         depends="clean,qa"
