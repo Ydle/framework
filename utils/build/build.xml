@@ -25,7 +25,7 @@
     <target name="qa" description="Lance les outils d'analyse">
         <phingcall target="pdepend" />
 
-        <phingcall target="phpmd" />
+        <phingcall target="phpmd-ci" />
 
         <phingcall target="phpcpd" />
         <phingcall target="phploc" />
@@ -41,6 +41,24 @@
             <logger type="overview-pyramid" outfile="${project.basedir}/build/pdepend/overview-pyramid.svg" />
         </phpdepend>
     </target>
+    
+
+    <target name="phpmd-ci" depends="init" description="Perform project mess detection using PHPMD">
+        <phpmd rulesets="codesize,design,naming,unusedcode">
+            <fileset refid="${project.basedir}/${source}/src/Ydle"/>
+            <formatter type="xml" outfile="{project.basedir}/build/logs/pmd.xml"/>
+        </phpmd>
+    </target>
+
+    <!--
+    This almost duplication of the above target, is so that it can be run standalone in the command
+    line, and have the results echoed to screen, instead of a file.
+    -->
+    <target name="phpmd" depends="init" description="Perform project mess detection using PHPMD">
+        <phpmd rulesets="codesize,design,naming,unusedcode">
+            <fileset refid="${project.basedir}/${source}/src/Ydle"/>
+        </phpmd>
+    </target> 
 <!--
     <target name="phpmd">
         <phpmd file="${project.basedir}/${source}">
@@ -59,11 +77,13 @@
         </phpmd>
     </target>
 -->
+<!--
 
+Le "bon"
     <target name="phpmd" description="Generate pmd.xml using PHPMD">
         <exec logoutput="true" spawn="true" command="phpmd ${project.basedir}/${source}/src/Ydle xml codesize,design,naming,unusedcode --reportfile ${project.basedir}/build/logs/pmd.xml" />
     </target>
-
+-->
 <!--
     <target name="phpcpd">
         <phpcpd file="${project.basedir}/${source}">
@@ -89,7 +109,7 @@
     </target>
 
     <target name="phpunit">
-        <exec logoutput="true" dir="${project.basedir}/${source}/Ydle/HubBundle/Tests" command="phpunit" escape="false" />
+        <exec logoutput="true" dir="${project.basedir}/${source}/src/Ydle/HubBundle/Tests" command="phpunit" escape="false" />
     </target>
 
     <target name="phpcb">
