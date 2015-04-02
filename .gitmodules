@@ -1,0 +1,3 @@
+[submodule "src/Ydle/HubBundle"]
+	path = src/Ydle/HubBundle
+	url = https://github.com/titzizou/HubBundle.git

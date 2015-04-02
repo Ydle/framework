@@ -14,3 +14,8 @@ web_profiler:
 
 swiftmailer:
     disable_delivery: true
+
+parameters:
+    database_name: ydle_test
+    database_user: ydle_test
+    database_password: ydle_test
