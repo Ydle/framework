@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Ydle-dev" default="ci" basedir="/var/www/ydle">
+    <property name="source" value="/var/www/ydle/src/Ydle/HubBundle" />
+    <property name="builds" value="/var/www/ydle/src/Ydle/HubBundle/build/" />
+<!--    <property name="builds" value="/var/lib/jenkins/jobs/Ydle-Dev/workspace/build" /> -->
+    <target name="ci"
+        description="Tahe principale d'intÃ©egation continue"
+        depends="clean,qa"
+    />
+
+    <target name="clean" description="Vide les repertoires d'artefacts">
+        <delete dir="${builds}/api" />
+        <delete dir="${builds}/code-browser" />
+        <delete dir="${builds}/coverage" />
+        <delete dir="${builds}/logs" />
+        <delete dir="${builds}/pdepend" />
+
+        <mkdir dir="${builds}/api" />
+        <mkdir dir="${builds}/code-browser" />
+        <mkdir dir="${builds}/coverage" />
+        <mkdir dir="${builds}/logs" />
+        <mkdir dir="${builds}/pdepend" />
+    </target>
+
+
+    <target name="qa" description="Lance les outils d'analyse">
+        <phingcall target="pdepend" />
+
+        <phingcall target="phpmd" />
+
+        <phingcall target="phpcpd" />
+        <phingcall target="phploc" />
+        <phingcall target="phpcs" />
+        <phingcall target="phpunit" />
+        <phingcall target="phpcb" />
+    </target>
+
+    <target name="pdepend">
+        <phpdepend file="${source}">
+            <logger type="jdepend-xml" outfile="${builds}/logs/jdepend.xml" />
+            <logger type="jdepend-chart" outfile="${builds}/pdepend/dependencies.svg" />
+            <logger type="overview-pyramid" outfile="${builds}/pdepend/overview-pyramid.svg" />
+        </phpdepend>
+    </target>
+<!--
+    <target name="phpmd">
+        <phpmd file="${project.basedir}/${source}/src/Ydle">
+            <formatter type="xml" outfile="${project.basedir}/${source}/app/phpmd.xml" />
+        </phpmd>
+    </target>
+    -->
+    <target name="phpmd" description="Generate phpmd.xml using PHPMD">
+        <exec logoutput="true" command="phpmd '${source}' xml codesize,design,naming,unusedcode --reportfile '${builds}/phpmd.xml'" />
+    </target>
+<!--  spawn="true" -->
+<!--
+    <target name="phpcpd">
+        <phpcpd file="${project.basedir}/${source}">
+            <formatter type="pmd" outfile="${project.basedir}/build/logs/pmd-cpd.xml"/>
+        </phpcpd>
+    </target>
+-->
+    <target name="phpcpd" description="Generate pmd-cpd.xml using PHPCPD">
+        <exec logoutput="true" command="phpcpd --log-pmd ${builds}/logs/pmd-cpd.xml ${source}" />
+    </target>
+
+    <target name="phploc">
+        <exec logoutput="true" dir="${project.basedir}" command="phploc --log-csv '${builds}/logs/phploc.csv' '${source}'" escape="false" />
+    </target>
+
+    <target name="phpcs">
+        <phpcodesniffer standard="Zend">
+            <fileset dir="${source}">
+                <include name="**/*.php"/>
+            </fileset>
+            <formatter type="checkstyle" outfile="${builds}/logs/checkstyle.xml"/>
+        </phpcodesniffer>
+    </target>
+
+    <target name="phpunit">
+        <exec logoutput="true" dir="${project.basedir}" command="phpunit --configuration=${project.basedir}/app/phpunit.xml.dist --colors --debug -v" escape="false" passthru="true" />
+    </target>
+<!--  escape="false" -->
+    <target name="phpcb">
+        <exec logoutput="true" command="phpcb --log '${builds}/logs' --source '${source}' --output '${builds}/code-browser'" escape="false" />
+    </target>
+</project>
