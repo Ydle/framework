@@ -1,6 +1,17 @@
-<phpunit>
+<phpunit
+    backupGlobals               = "false"
+    backupStaticAttributes      = "false"
+    colors                      = "true"
+    convertErrorsToExceptions   = "true"
+    convertNoticesToExceptions  = "true"
+    convertWarningsToExceptions = "true"
+    processIsolation            = "false"
+    stopOnFailure               = "false"
+    syntaxCheck                 = "false"
+    bootstrap                   = "bootstrap.php.cache" >
+
     <testsuites>
-        <testsuite name="Ydle">
+        <testsuite name="Project Test Suite">
             <directory>../src/*/*Bundle/Tests</directory>
             <directory>../src/*/Bundle/*Bundle/Tests</directory>
         </testsuite>
@@ -8,22 +19,23 @@
 
     <filter>
         <whitelist>
-            <directory>../src</directory>
+            <directory suffix=".php">../src</directory>
             <exclude>
                 <directory>../src/*/*Bundle/Resources</directory>
                 <directory>../src/*/*Bundle/Tests</directory>
+                <directory>../src/*/*Bundle/DataFixtures</directory>
                 <directory>../src/*/Bundle/*Bundle/Resources</directory>
                 <directory>../src/*/Bundle/*Bundle/Tests</directory>
+                <directory>../src/*/Bundle/*Bundle/DataFixtures</directory>
             </exclude>
         </whitelist>
-        
-        <logging>
-            <log type="coverage-clover" target="../build/logs/clover.xml"/>
-            <log type="coverage-html" target="../build/coverage" title="Ydle"
-                 charset="UTF-8" yui="true" highlight="true"
-                 lowUpperBound="35" highLowerBound="70"/>
-            <log type="junit" target="../build/logs/junit.xml" logIncompleteSkipped="false"/>
-        </logging>
     </filter>
 
+    <logging>
+        <log type="coverage-html" target="../src/Ydle/HubBundle/build/coverage" title="Name of Project"
+             charset="UTF-8" yui="true" highlight="true"
+             lowUpperBound="35" highLowerBound="70"/>
+        <log type="coverage-clover" target="../src/Ydle/HubBundle/build/logs/clover.xml"/>
+        <log type="junit" target="../src/Ydle/HubBundle/build/logs/junit.xml" logIncompleteSkipped="false"/>
+    </logging>
 </phpunit>
